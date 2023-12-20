@@ -1,0 +1,9 @@
+{
+  "name": "FF14石之家美化",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cmd /c python python/main.py src/main.js"
+  }
+}

@@ -1,0 +1,137 @@
+/*头部和背景*/
+#app.overflow {
+    padding: 0;
+}
+
+.headerCls .head_line {
+    display: none !important;
+}
+
+.headerCls + div {
+    background-image: url('https://p.sda1.dev/14/ab5d5f5a6351d6a35ca8fffaca8e581b/1.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*body{*/
+/*    background-image: url('https://p.sda1.dev/14/ab5d5f5a6351d6a35ca8fffaca8e581b/1.webp');*/
+/*    background-attachment: fixed;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+.main-layout {
+    width: 1250px !important;
+}
+
+
+/*帖子区域*/
+.tiebox {
+    border-radius: 4px;
+    overflow: hidden;
+
+    & li {
+        border-bottom: 1px solid #434343;
+        color: white;
+
+        &:hover .post-main {
+            background-color: rgba(60, 60, 60, .8) !important;
+        }
+
+        & .post-main {
+            transition: background-color .2s;
+            background-color: rgba(11, 11, 11, .8) !important;
+
+            & .comment-num {
+                margin-left: 45px !important;
+            }
+
+            & .tag {
+                width: 146px !important;
+                padding-left: 66px !important;
+            }
+        }
+
+        & .comment-num {
+            background-color: #ffffff38 !important;
+
+            & span {
+                color: #aaa !important;
+            }
+        }
+    }
+
+    & .tieCont {
+        margin: 0 !important;
+    }
+
+    & .info_area {
+        color: #aaa;
+
+        & .name {
+            color: #ffffff;
+            padding: 0;
+        }
+
+        & .a_box {
+            flex-direction: row-reverse;
+        }
+    }
+
+    & .el-col-3 {
+        max-width: 15% !important;
+        flex: 0 0 15% !important;
+    }
+
+    & .el-col-13 {
+        max-width: 60% !important;
+        flex: 0 0 60% !important;
+    }
+
+    & .el-col-8 {
+        max-width: 25% !important;
+        flex: 0 0 25% !important;
+    }
+}
+
+.mt3 {
+    margin-top: 20px !important;
+}
+
+.el-tabs__item {
+    color: #a5a8ae !important;
+}
+
+.mb10 {
+    margin: 0 !important;;
+}
+
+.bdr10 {
+    border-radius: 0 !important;
+}
+
+.post-main {
+    border-radius: 0 !important;
+}
+
+/*右侧区域*/
+.el-card {
+    border: 0 !important;
+    background-color: rgba(11, 11, 11, .8) !important;
+    color: rgb(225, 225, 225) !important;
+
+    & .el-divider--horizontal {
+        border-top: 1px #4d4d4d var(--el-border-style);
+    }
+}
+
+
+/*最前端*/
+.el-image-viewer__mask {
+    opacity: .8 !important;
+}
+
+.el-image-viewer__canvas img {
+    transform: scale(0.8) !important;
+}
