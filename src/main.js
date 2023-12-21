@@ -2,7 +2,7 @@
 // @name         FF14石之家美化
 // @description  美化，一键盖章
 // @namespace    none
-// @version      0.0.3
+// @version      0.0.4
 // @author       gogofishman
 // @license      MIT
 // @match        *://*.ff14risingstones.web.sdo.com/*

@@ -15,12 +15,29 @@
 'use strict'
 
 GM_addStyle(`/*头部和背景*/
+.head_sub_line {
+    background-color: #1f1f1f !important;
+    margin-bottom: 30px !important;
+
+    & .el-menu {
+        background-color: #1f1f1f !important;
+    }
+}
+
 #app.overflow {
     padding: 0;
 }
 
-.headerCls .head_line {
-    display: none !important;
+.headerCls {
+    background-color: #3f3e3e !important;
+
+    & .hit100 {
+        filter: invert(1);
+    }
+
+    & .head_line {
+        display: none !important;
+    }
 }
 
 .headerCls + div {
@@ -48,6 +65,7 @@ GM_addStyle(`/*头部和背景*/
     overflow: hidden;
 
     & li {
+        margin: 0 !important;
         border-bottom: 1px solid #434343;
         color: white;
 
